@@ -111,4 +111,6 @@ class RocketChatMessageTest extends TestCase
         $message->clearAttachments();
         $this->assertCount(0, $message->attachments);
     }
+
+    
 }
